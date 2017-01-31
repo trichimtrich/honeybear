@@ -1,0 +1,30 @@
+[2016-12-26T08:11:49,790][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2016-12-26T08:11:49,804][INFO ][o.e.n.Node               ] [EUGVp22] stopping ...
+[2016-12-26T08:11:49,930][INFO ][o.e.n.Node               ] [EUGVp22] stopped
+[2016-12-26T08:11:49,933][INFO ][o.e.n.Node               ] [EUGVp22] closing ...
+[2016-12-26T08:11:49,961][INFO ][o.e.n.Node               ] [EUGVp22] closed
+[2016-12-26T10:15:15,005][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-26T10:15:15,126][INFO ][o.e.e.NodeEnvironment    ] [EUGVp22] using [1] data paths, mounts [[(C:)]], net usable_space [39.4gb], net total_space [138.9gb], spins? [unknown], types [NTFS]
+[2016-12-26T10:15:15,137][INFO ][o.e.e.NodeEnvironment    ] [EUGVp22] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-26T10:15:15,930][INFO ][o.e.n.Node               ] node name [EUGVp22] derived from node ID [EUGVp22ARzi9lWkEOCD8nQ]; set [node.name] to override
+[2016-12-26T10:15:15,932][INFO ][o.e.n.Node               ] version[5.1.1], pid[8120], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-26T10:15:16,656][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [aggs-matrix-stats]
+[2016-12-26T10:15:16,656][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [ingest-common]
+[2016-12-26T10:15:16,657][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-expression]
+[2016-12-26T10:15:16,657][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-groovy]
+[2016-12-26T10:15:16,657][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-mustache]
+[2016-12-26T10:15:16,657][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-painless]
+[2016-12-26T10:15:16,657][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [percolator]
+[2016-12-26T10:15:16,657][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [reindex]
+[2016-12-26T10:15:16,658][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [transport-netty3]
+[2016-12-26T10:15:16,658][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [transport-netty4]
+[2016-12-26T10:15:16,658][INFO ][o.e.p.PluginsService     ] [EUGVp22] no plugins loaded
+[2016-12-26T10:15:20,595][INFO ][o.e.n.Node               ] initialized
+[2016-12-26T10:15:20,596][INFO ][o.e.n.Node               ] [EUGVp22] starting ...
+[2016-12-26T10:15:22,567][INFO ][o.e.t.TransportService   ] [EUGVp22] publish_address {10.199.184.60:9300}, bound_addresses {[::]:9300}
+[2016-12-26T10:15:22,570][INFO ][o.e.b.BootstrapCheck     ] [EUGVp22] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2016-12-26T10:15:26,843][INFO ][o.e.c.s.ClusterService   ] [EUGVp22] new_master {EUGVp22}{EUGVp22ARzi9lWkEOCD8nQ}{EGQlqbPsTxC1jJFHY4_WIw}{10.199.184.60}{10.199.184.60:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-26T10:15:27,633][INFO ][o.e.h.HttpServer         ] [EUGVp22] publish_address {10.199.184.60:9200}, bound_addresses {[::]:9200}
+[2016-12-26T10:15:27,634][INFO ][o.e.n.Node               ] [EUGVp22] started
+[2016-12-26T10:15:28,138][INFO ][o.e.g.GatewayService     ] [EUGVp22] recovered [11] indices into cluster_state
+[2016-12-26T10:15:40,204][INFO ][o.e.c.r.a.AllocationService] [EUGVp22] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies][1]] ...]).

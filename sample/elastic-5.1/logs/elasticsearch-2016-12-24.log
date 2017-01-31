@@ -1,0 +1,74 @@
+[2016-12-24T06:51:34,748][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-24T06:51:35,270][INFO ][o.e.e.NodeEnvironment    ] [EUGVp22] using [1] data paths, mounts [[(C:)]], net usable_space [40.9gb], net total_space [138.9gb], spins? [unknown], types [NTFS]
+[2016-12-24T06:51:35,271][INFO ][o.e.e.NodeEnvironment    ] [EUGVp22] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-24T06:51:35,277][INFO ][o.e.n.Node               ] node name [EUGVp22] derived from node ID [EUGVp22ARzi9lWkEOCD8nQ]; set [node.name] to override
+[2016-12-24T06:51:35,299][INFO ][o.e.n.Node               ] version[5.1.1], pid[9644], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-24T06:51:36,083][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [aggs-matrix-stats]
+[2016-12-24T06:51:36,083][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [ingest-common]
+[2016-12-24T06:51:36,083][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-expression]
+[2016-12-24T06:51:36,083][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-groovy]
+[2016-12-24T06:51:36,083][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-mustache]
+[2016-12-24T06:51:36,084][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-painless]
+[2016-12-24T06:51:36,084][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [percolator]
+[2016-12-24T06:51:36,084][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [reindex]
+[2016-12-24T06:51:36,084][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [transport-netty3]
+[2016-12-24T06:51:36,084][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [transport-netty4]
+[2016-12-24T06:51:36,085][INFO ][o.e.p.PluginsService     ] [EUGVp22] no plugins loaded
+[2016-12-24T06:51:38,292][INFO ][o.e.n.Node               ] initialized
+[2016-12-24T06:51:38,293][INFO ][o.e.n.Node               ] [EUGVp22] starting ...
+[2016-12-24T06:51:40,283][INFO ][o.e.t.TransportService   ] [EUGVp22] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-12-24T06:51:44,416][INFO ][o.e.c.s.ClusterService   ] [EUGVp22] new_master {EUGVp22}{EUGVp22ARzi9lWkEOCD8nQ}{6Ouz3BjrTx-E6rxNXJPP9A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-24T06:51:44,492][INFO ][o.e.g.GatewayService     ] [EUGVp22] recovered [0] indices into cluster_state
+[2016-12-24T06:51:45,733][INFO ][o.e.h.HttpServer         ] [EUGVp22] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-12-24T06:51:45,734][INFO ][o.e.n.Node               ] [EUGVp22] started
+[2016-12-24T09:08:42,482][INFO ][o.e.c.m.MetaDataCreateIndexService] [EUGVp22] [movies] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-12-24T09:08:45,017][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [movies/oqxxi0rUS3y11_BliiyK4Q] create_mapping [movie]
+[2016-12-24T09:10:29,728][INFO ][o.e.c.m.MetaDataCreateIndexService] [EUGVp22] [a] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-12-24T09:10:30,721][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [a/I6EBL2FNQOq6Q-u3miAEow] create_mapping [b]
+[2016-12-24T09:16:20,650][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [a/I6EBL2FNQOq6Q-u3miAEow] update_mapping [b]
+[2016-12-24T09:28:53,934][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [a/I6EBL2FNQOq6Q-u3miAEow] update_mapping [b]
+[2016-12-24T11:20:20,688][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2016-12-24T11:20:20,694][INFO ][o.e.n.Node               ] [EUGVp22] stopping ...
+[2016-12-24T11:20:20,784][INFO ][o.e.n.Node               ] [EUGVp22] stopped
+[2016-12-24T11:20:20,785][INFO ][o.e.n.Node               ] [EUGVp22] closing ...
+[2016-12-24T11:20:20,801][INFO ][o.e.n.Node               ] [EUGVp22] closed
+[2016-12-24T11:20:31,616][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-24T11:20:32,074][INFO ][o.e.e.NodeEnvironment    ] [EUGVp22] using [1] data paths, mounts [[(C:)]], net usable_space [38.8gb], net total_space [138.9gb], spins? [unknown], types [NTFS]
+[2016-12-24T11:20:32,075][INFO ][o.e.e.NodeEnvironment    ] [EUGVp22] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-12-24T11:20:32,164][INFO ][o.e.n.Node               ] node name [EUGVp22] derived from node ID [EUGVp22ARzi9lWkEOCD8nQ]; set [node.name] to override
+[2016-12-24T11:20:32,166][INFO ][o.e.n.Node               ] version[5.1.1], pid[5236], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-24T11:20:33,690][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [aggs-matrix-stats]
+[2016-12-24T11:20:33,690][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [ingest-common]
+[2016-12-24T11:20:33,698][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-expression]
+[2016-12-24T11:20:33,698][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-groovy]
+[2016-12-24T11:20:33,698][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-mustache]
+[2016-12-24T11:20:33,698][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [lang-painless]
+[2016-12-24T11:20:33,698][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [percolator]
+[2016-12-24T11:20:33,699][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [reindex]
+[2016-12-24T11:20:33,699][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [transport-netty3]
+[2016-12-24T11:20:33,699][INFO ][o.e.p.PluginsService     ] [EUGVp22] loaded module [transport-netty4]
+[2016-12-24T11:20:33,700][INFO ][o.e.p.PluginsService     ] [EUGVp22] no plugins loaded
+[2016-12-24T11:20:39,561][INFO ][o.e.n.Node               ] initialized
+[2016-12-24T11:20:39,561][INFO ][o.e.n.Node               ] [EUGVp22] starting ...
+[2016-12-24T11:20:41,190][INFO ][o.e.t.TransportService   ] [EUGVp22] publish_address {192.168.1.4:9300}, bound_addresses {[::]:9300}
+[2016-12-24T11:20:41,194][INFO ][o.e.b.BootstrapCheck     ] [EUGVp22] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2016-12-24T11:20:45,417][INFO ][o.e.c.s.ClusterService   ] [EUGVp22] new_master {EUGVp22}{EUGVp22ARzi9lWkEOCD8nQ}{0iC5B5XQSY-HeAUYqYFNhw}{192.168.1.4}{192.168.1.4:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-24T11:20:45,853][INFO ][o.e.g.GatewayService     ] [EUGVp22] recovered [2] indices into cluster_state
+[2016-12-24T11:20:46,093][INFO ][o.e.h.HttpServer         ] [EUGVp22] publish_address {192.168.1.4:9200}, bound_addresses {[::]:9200}
+[2016-12-24T11:20:46,094][INFO ][o.e.n.Node               ] [EUGVp22] started
+[2016-12-24T11:20:48,692][INFO ][o.e.c.r.a.AllocationService] [EUGVp22] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies][2], [movies][1]] ...]).
+[2016-12-24T15:11:30,370][INFO ][o.e.c.m.MetaDataCreateIndexService] [EUGVp22] [honeybear] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-12-24T15:11:31,594][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/ZppcXUEJS6eMVx1sTiU7Zg] create_mapping [uid]
+[2016-12-24T15:18:14,428][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/ZppcXUEJS6eMVx1sTiU7Zg] update_mapping [uid]
+[2016-12-24T15:57:18,813][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/ZppcXUEJS6eMVx1sTiU7Zg] create_mapping [request]
+[2016-12-24T15:58:21,355][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/ZppcXUEJS6eMVx1sTiU7Zg] update_mapping [request]
+[2016-12-24T16:13:41,601][INFO ][o.e.c.m.MetaDataCreateIndexService] [EUGVp22] [honeybear] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-12-24T16:13:44,426][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/54RLx9x_T2-PrXl4Fip4NQ] create_mapping [uid]
+[2016-12-24T16:15:48,253][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/54RLx9x_T2-PrXl4Fip4NQ] create_mapping [request]
+[2016-12-24T16:17:29,654][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/54RLx9x_T2-PrXl4Fip4NQ] update_mapping [request]
+[2016-12-24T16:18:11,123][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/54RLx9x_T2-PrXl4Fip4NQ] update_mapping [request]
+[2016-12-24T16:19:25,642][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/54RLx9x_T2-PrXl4Fip4NQ] update_mapping [request]
+[2016-12-24T16:44:14,024][INFO ][o.e.c.m.MetaDataCreateIndexService] [EUGVp22] [honeybear] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-12-24T16:44:15,255][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/hmnTp6YuQ3ibpmmdJSD-ag] create_mapping [request]
+[2016-12-24T16:44:15,393][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/hmnTp6YuQ3ibpmmdJSD-ag] create_mapping [uid]
+[2016-12-24T16:44:33,575][INFO ][o.e.c.m.MetaDataMappingService] [EUGVp22] [honeybear/hmnTp6YuQ3ibpmmdJSD-ag] update_mapping [request]
